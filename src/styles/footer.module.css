@@ -1,0 +1,312 @@
+.container{
+    width: 100vw;
+    height: auto;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: black;
+    overflow-x: hidden;
+}
+
+.boxContainer1{
+    width: 80%;
+    height: auto;
+    padding: 50px 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxContainer1 .mainTitle{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+}
+
+.boxContainer1 .boxes{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.boxContainer1 .box{
+    width: 30%;
+    height: auto;
+    margin: 0px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.boxContainer1 .title{
+    width: auto;
+    height: auto;
+    margin-bottom: 10px !important;
+    color: white;
+}
+
+.boxContainer1 .link{
+    width: auto;
+    height: auto;
+    margin-bottom: 5px !important;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.boxContainer1 .link:hover{
+    color: white;
+}
+
+
+.boxContainer2{
+    width: 80%;
+    height: auto;
+    padding: 50px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.boxContainer2 .box{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.boxContainer2 .title{
+    width: auto;
+    height: auto;
+    margin-right: 20px !important;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.boxContainer2 .icon{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.boxContainer2 .number{
+    width: auto;
+    height: auto;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 15px !important;
+}
+
+.boxContainer2 .description{
+    width: 100%;
+    height: auto;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.boxContainer3{
+    width: 80%;
+    height: calc(100vh - 135px);
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxContainer3 .box1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.boxContainer3 .smallBox{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+.boxContainer3 .link{
+    width: auto;
+    height: auto;
+    margin-right: 15px !important;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.boxContainer3 .link:hover{
+    color: white;
+}
+
+.boxContainer3 .deutch{
+    width: auto;
+    height: auto;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.boxContainer3 .deutch:hover{
+    color: white;
+}
+
+.boxContainer3 .l{
+    width: auto;
+    height: auto;
+    margin: 0px 10px !important;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.boxContainer3 .english{
+    width: auto;
+    height: auto;
+    color: white;
+    cursor: pointer;
+}
+
+.boxContainer3 .box2{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContainer3 .logo{
+    width: auto;
+    height: 50%;
+    margin-bottom: 20px;
+    object-fit: fill;
+    object-position: center;
+    cursor: pointer;
+}
+
+.boxContainer3 .title{
+    width: auto;
+    height: auto;
+    font-weight: 400 !important;
+    color: white;
+    cursor: pointer;
+}
+
+.boxContainer3 .box3{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.boxContainer3 .topIcon{
+    width: auto;
+    height: auto;
+    margin-bottom: 5px !important;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.boxContainer3 .top{
+    width: auto;
+    height: auto;
+    color: white;
+    cursor: pointer;
+}
+
+
+.boxContainer4{
+    width: 80%;
+    height: auto;
+    padding: 20px 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mercedesCredit, .salamaCredit{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-bottom: 15px !important;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.mercedesLink{
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.salamaLink{
+    width: auto;
+    height: auto;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    color: rgb(0, 80, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.salamaLink:hover{
+    color: rgba(0, 80, 255, 0.5)
+}
+
+
+@media screen and (max-width: 425px){
+
+    .boxContainer1 .boxes{
+        width: auto;
+    }
+
+    .boxContainer1 .mainTitle{
+        width: auto;
+        margin-right: 20px !important;
+        font-size: 35px !important;
+    }
+
+    .boxContainer1 .title{
+        font-size: 18px !important;
+    }
+
+    .boxContainer3 .link{
+        font-size: 14px !important;
+    }
+
+    .boxContainer3 .link, .boxContainer3 .deutch, .boxContainer3 .l, .boxContainer3 .english{
+        font-size: 14px !important;
+    }
+
+    .boxContainer3 .deutch, .boxContainer3 .l, .boxContainer3 .english{
+        display: none;
+    }
+
+    .boxContainer4{
+        width: 90%;
+    }
+}

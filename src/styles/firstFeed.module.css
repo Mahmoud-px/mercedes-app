@@ -1,0 +1,257 @@
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: white;
+    overflow-x: hidden;
+}
+
+.feed1{
+    width: 80%;
+    height: 350vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.boxContainer1{
+    width: 45%;
+    height: 100%;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.feed1 .title1{
+    margin-bottom: 5px !important;
+    color: black;
+}
+
+.feed1 .title2{
+    margin-bottom: 20px !important;
+    color: black;
+    cursor: pointer;
+}
+
+.img1, .img5{
+    width: 100%;
+    height: calc(100vh - 65px);
+    object-fit: fill;
+    object-position: center;
+    cursor: pointer;
+}
+
+.img3, .img2, .img4{
+    width: 100%;
+    height: 45vh;
+    object-fit: fill;
+    object-position: center;
+    cursor: pointer;
+}
+
+.img1:hover, .img5:hover, .img3:hover, .img2:hover, .img4:hover{
+    scale: 1.025;
+    transition: .5s ease-in-out;
+}
+
+.boxContainer2{
+    width: 45%;
+    height: 100%;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.feed2{
+    width: 100%;
+    height: calc(100vh - 65px);
+    position: relative;
+}
+
+.img6{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.feedBox{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.feed2 .title1{
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    color: white;
+}
+
+.feed2 .title2{
+    margin-bottom: 20px !important;
+    font-size: 52px !important;
+    font-weight: 400 !important;
+    color: white;
+}
+
+.button{
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.button:hover{
+    background: rgb(0, 90, 255);
+    color: white;
+}
+
+.feed3{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.feed3 .title{
+    text-align: center;
+    margin-bottom: 50px !important;
+    color: black;
+}
+
+.icons{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+    object-fit: fill;
+    object-position: center;
+    cursor: pointer;
+}
+
+.icon:hover{
+    opacity: 0.75;
+}
+
+
+@media screen and (max-width: 1024px){
+
+    .img1, .img5{
+        height: calc(100vh - 150px);
+    }
+
+    .feedBox{
+        left: 5%;
+    }
+
+    .feed2 .title2{
+        font-size: 45px !important;
+    }
+
+    .button{
+        padding: 7px 15px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .img6{
+        object-fit: fill;
+    }
+
+    .feedBox{
+        top: 20%;
+        left: 3%;
+    }
+
+    .feed2 .title2{
+        font-size: 35px !important;
+        font-weight: 600;
+    }
+
+    .button{
+        padding: 5px 12px;
+    }
+}
+
+
+@media screen and (max-width: 425px){
+
+    .feed1{
+        width: 95%;
+        height: 250vh !important;
+    }
+    
+    .feed1 .title2{
+        margin-bottom: 10px !important;
+        font-size: 22px !important;
+    }
+
+    .img1, .img5{
+        height: 60vh;
+    }
+    
+    .img3, .img2, .img4{
+        height: 35vh;
+    }
+
+    .feed1 .boxContainer1, .boxContainer2{
+        width: 47%;
+    }
+
+    .feed2{
+        height: 70vh;
+        .feedBox{
+            top: 7%;
+            left: 3%;
+        }
+    }
+
+    .feed3 .title{
+        font-size: 35px !important;
+    }
+
+    .icons{
+        width: 90%;
+    }
+}

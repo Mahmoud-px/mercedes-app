@@ -1,0 +1,181 @@
+.container{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgb(75, 75, 75);
+    min-height: calc(100vh - 135px);
+    padding-bottom: 150px;
+    background: white;
+}
+
+.videoContainer{
+    width: 100%;
+    height: 200vh;
+    position: relative;
+}
+
+.videosWrapper{
+    width: 100%;
+    height: 110vh;
+    position: sticky;
+    top: 0;
+}
+
+.video1{
+    width: 100%;
+    height: 110vh;
+    position: relative;
+}
+
+.video2{
+    width: 100%;
+    height: 110vh;
+    position: relative;
+}
+
+span{
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.box{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 32%;
+    bottom: 68%;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.titleBox{
+    margin-bottom: 20px;
+}
+
+.title{
+    font-size: 35px !important;
+    color: white;
+}
+
+.button{
+    width: auto;
+    height: auto;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.button:hover{
+    background: rgb(0, 90, 255);
+    color: white;
+}
+
+.arrow{
+    text-align: center;
+    font-size: 14px;
+    margin-left: 2px;
+    display: inline-block;
+    color: rgb(75, 75, 75);
+}
+
+.bars{
+    width: 2px;
+    height: 150px;
+    position: absolute !important;
+    top: 40% !important;
+    bottom: 60% !important;
+    right: 40px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progressBar{
+    width: 150px !important;
+    height: 2px !important;
+    color: white !important;
+    transform: rotate(90deg);
+    margin: 5px 0px;
+}
+
+.fakeBar{
+    width: 100%;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+
+@media screen and (max-width: 1024px){
+
+    .container{
+        padding-bottom: 100px;
+    }
+    
+    span{
+        height: 107vh !important;
+    }
+
+    .video1, .video2{
+        background: black;
+    }
+}
+
+
+@media screen and (max-width: 425px){
+
+    span{
+        height: 100vh !important;
+    }
+
+    .box{
+        top: 48%;
+        left: 3%;
+    }
+
+    .title{
+        font-size: 16px !important;
+        font-weight: 200 !important;
+    }
+
+    .titleBox{
+        margin-bottom: 5px;
+    }
+
+    .button{
+        font-size: 12px;
+        padding: 3px 8px;
+    }
+
+    .arrow{
+        font-size: 12px; 
+    }
+
+    .video1 .bars{
+        height: 135px;
+        top: 40% !important;
+        right: 20px !important;
+    }
+
+    .video2 .bars{
+        height: 135px;
+        top: 33% !important;
+        right: 20px !important;
+    }
+
+    .progressBar{
+        width: 120px !important;
+    }
+}
+
+
+

@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'mbcorpo-title';
+  src: url('../assets/fonts/mbcorpo-title.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'mbcorpo-text';
+  src: url('../assets/fonts/mbcorpo-text.ttf') format('opentype');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: .5s ease-in-out;
+}
+
+:root{
+  --first-color: #EF6A00;
+  --second-color: #C63663;
+  --third-color: #3E342F;
+}
+
+::selection{
+  color: white;
+  background: black;
+}
+
+
+html, body{
+  width: 100% !important;
+}
+
+ html{
+  overflow-x: hidden;
+}
+
+h1{
+  font-size: 50px !important;
+  font-weight: 600 !important;
+  font-family: 'mbcorpo-title';
+  margin: 0 !important;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  display: inline-block;
+  text-align: left !important;
+  /* letter-spacing: -2px;
+  word-spacing: -15px;
+  line-height: 65px; */
+}
+
+h2{
+  font-size: 40px !important;
+  font-weight: 400 !important;
+  font-family: 'mbcorpo-title';
+  margin: 0 !important;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+h3{
+  font-size: 30px !important;
+  font-weight: 400 !important;
+  font-family: 'mbcorpo-title';
+  margin: 0 !important;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+h4{
+  font-size: 26px !important;
+  font-weight: 400 !important;
+  font-family: 'mbcorpo-title';
+  margin: 0 !important;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+h5{
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  font-family: 'mbcorpo-text';
+  margin: 0 !important;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+h6{
+  font-size: 18px !important;
+  font-weight: 200 !important;
+  font-family: 'mbcorpo-text';
+  margin: 0px !important;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+p{
+  font-size: 14px !important;
+  font-weight: 200 !important;
+  font-family: 'mbcorpo-text';
+  margin: 0 !important;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  display: inline-block;
+  text-align: left;
+}

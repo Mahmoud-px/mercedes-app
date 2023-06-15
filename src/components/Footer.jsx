@@ -19,14 +19,14 @@ const Footer = () => {
         <div className={styles.boxContainer1}>
             <h2 className={styles.mainTitle}>More</h2>
             <div className={styles.boxes}>
-                <div className={styles.box}>
+                <div className={styles.box} data-aos="fade-right">
                     <h5 className={styles.title}>About Us</h5>
                     <h6 className={styles.link}>Mercedes-Benz Group AG</h6>
                     <h6 className={styles.link}>Business Units</h6>
                     <h6 className={styles.link}>Investors</h6>
                     <h6 className={styles.link}>Press</h6>
                 </div>
-                <div className={styles.box}>
+                <div className={styles.box} data-aos="fade-right">
                     <h5 className={styles.title}>Careers</h5>
                     <h6 className={styles.link}>Job Search</h6>
                     <h6 className={styles.link}>Professionals</h6>
@@ -34,7 +34,7 @@ const Footer = () => {
                     <h6 className={styles.link}>Students</h6>
                     <h6 className={styles.link}>Talent Programs</h6>
                 </div>
-                <div className={styles.box}>
+                <div className={styles.box} data-aos="fade-right">
                     <h5 className={styles.title}>Knowledge Center</h5>
                     <h6 className={styles.link}>Consumption & Emissions</h6>
                     <h6 className={styles.link}>Mercedes-Benz Energy Storage</h6>
@@ -42,7 +42,7 @@ const Footer = () => {
                     <h6 className={styles.link}>Semiconductor Availability</h6>
                     <h6 className={styles.link}>UN 38.3 Test</h6>
                 </div>
-                <div className={styles.box}>
+                <div className={styles.box} data-aos="fade-right">
                     <h5 className={styles.title}>Business Services</h5>
                     <h6 className={styles.link}>Fleet Sales</h6>
                     <h6 className={styles.link}>International Diplomatic Sales</h6>

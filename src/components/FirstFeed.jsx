@@ -21,32 +21,32 @@ const FirstFeed = () => {
         <div className={styles.feed1}>
             <div className={styles.boxContainer1}>
                 <div className={styles.box}>
-                    <h6 className={styles.title1}>Sustainability</h6>
-                    <h4 className={styles.title2}>Land, Sea, Air.</h4>
-                    <img src={img1} alt="img1" className={styles.img1}/>
+                    <h6 className={styles.title1} data-aos="fade-up">Sustainability</h6>
+                    <h4 className={styles.title2} data-aos="fade-up">Land, Sea, Air.</h4>
+                    <img src={img1} alt="img1" className={styles.img1} data-aos="fade-up"/>
                 </div>
                 <div className={styles.box}>
-                    <h6 className={styles.title1}>Exclusive</h6>
-                    <h4 className={styles.title2}>Haute Voiture.</h4>
-                    <img src={img3} alt="img3" className={styles.img3}/>
+                    <h6 className={styles.title1} data-aos="fade-up">Exclusive</h6>
+                    <h4 className={styles.title2} data-aos="fade-up">Haute Voiture.</h4>
+                    <img src={img3} alt="img3" className={styles.img3} data-aos="fade-up"/>
                 </div>
                 <div className={styles.box}>
-                    <h6 className={styles.title1}>Vehicles</h6>
-                    <h4 className={styles.title2}>The G manufaktur - Icons of Unique.</h4>
-                    <img src={img5} alt="img5" className={styles.img5}/>
+                    <h6 className={styles.title1} data-aos="fade-up">Vehicles</h6>
+                    <h4 className={styles.title2} data-aos="fade-up">The G manufaktur - Icons of Unique.</h4>
+                    <img src={img5} alt="img5" className={styles.img5} data-aos="fade-up"/>
                 </div>
             </div>
 
             <div className={styles.boxContainer2}>
                 <div className={styles.box}>
-                    <h6 className={styles.title1}>Zeitgeist</h6>
-                    <h4 className={styles.title2}>Neon Legacy.</h4>
-                    <img src={img2} alt="img2" className={styles.img2}/>
+                    <h6 className={styles.title1} data-aos="fade-up">Zeitgeist</h6>
+                    <h4 className={styles.title2} data-aos="fade-up">Neon Legacy.</h4>
+                    <img src={img2} alt="img2" className={styles.img2} data-aos="fade-up"/>
                 </div>
                 <div className={styles.box}>
-                    <h6 className={styles.title1}>Sustainibility</h6>
-                    <h4 className={styles.title2}>An auction to fund a global fellowship.</h4>
-                    <img src={img4} alt="img4" className={styles.img4}/>
+                    <h6 className={styles.title1} data-aos="fade-up">Sustainibility</h6>
+                    <h4 className={styles.title2} data-aos="fade-up">An auction to fund a global fellowship.</h4>
+                    <img src={img4} alt="img4" className={styles.img4} data-aos="fade-up"/>
                 </div>
             </div>
         </div>
@@ -54,21 +54,21 @@ const FirstFeed = () => {
         <div className={styles.feed2}>
             <img src={img6} alt="img6" className={styles.img6}/>
             <div className={styles.feedBox}>
-                <h6 className={styles.title1}>Greatness made to last.</h6>
-                <h1 className={styles.title2}>The Grand Mercedes</h1>
-                <button className={styles.button}>Discover more</button>
+                <h6 className={styles.title1} data-aos="fade-up">Greatness made to last.</h6>
+                <h1 className={styles.title2} data-aos="fade-up">The Grand Mercedes</h1>
+                <button className={styles.button} data-aos="fade-up">Discover more</button>
             </div>
         </div>
 
         <div className={styles.feed3}>
             <h2 className={styles.title}>Follow Mercedes-Benz</h2>
             <div className={styles.icons}>
-                <img src={icon1} alt="icon" className={styles.icon}/>
-                <img src={icon2} alt="icon" className={styles.icon}/>
-                <img src={icon3} alt="icon" className={styles.icon}/>
-                <img src={icon4} alt="icon" className={styles.icon}/>
-                <img src={icon5} alt="icon" className={styles.icon}/>
-                <img src={icon6} alt="icon" className={styles.icon}/>
+                <img src={icon1} alt="icon" className={styles.icon} data-aos="fade-up"/>
+                <img src={icon2} alt="icon" className={styles.icon} data-aos="fade-up"/>
+                <img src={icon3} alt="icon" className={styles.icon} data-aos="fade-up"/>
+                <img src={icon4} alt="icon" className={styles.icon} data-aos="fade-up"/>
+                <img src={icon5} alt="icon" className={styles.icon} data-aos="fade-up"/>
+                <img src={icon6} alt="icon" className={styles.icon} data-aos="fade-up"/>
             </div>
         </div>
     </div>
